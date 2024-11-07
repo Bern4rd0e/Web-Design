@@ -1,0 +1,17 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    text-align: center;
+    background-color: #5e5e5e;
+}
+
+h1{
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: blue;
+}

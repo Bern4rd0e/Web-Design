@@ -1,0 +1,21 @@
+body{
+    background-color: #d9d9d9;
+    font-family: 
+    'Courier New', 
+    Courier, 
+    monospace;
+
+}
+
+h1{
+    text-align: center;
+}
+
+#ifrn{
+    color: rgb(158, 201, 93);
+}
+
+img{
+    width: 300px;
+    height: 200px;
+}
