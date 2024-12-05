@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    font-family:"poppins";
+    background-color: rgb(94, 119, 58);
+    background-image: url(img/tartarugas-ninjas.jpg);
+    background-size: auto 200px;
+    background-repeat: no-repeat;
+    background-position: center top 15px;
+    background-attachment: fixed;
+}
+
+h1{
+    color: white;
+    margin-top: 250px;
+    text-align: center;
+}
+
+#paragrafos{
+    color: #fff;
+    margin-top: 10px;
+    text-align: justify;
+    border: 2px solid rgb(7, 56, 15);
+    border-radius: 15px;
+}
+
+p{
+    padding-left: 250px ;
+}
+
+#donatello{
+    background-image: url(img/donatello.webp);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center left 15px;
+}
