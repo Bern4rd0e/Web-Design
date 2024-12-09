@@ -29,9 +29,27 @@ p{
     padding-left: 250px ;
 }
 
-#donatello{
-    background-image: url(img/donatello.webp);
+#rafael, #leonardo, #donatello, #nickelodeon{
     background-size: 200px;
     background-repeat: no-repeat;
+}
+
+#donatello{
+    background-image: url(img/donatello.webp);
+    background-position: center left 15px;
+}
+
+#leonardo{
+    background-image: url(img/leonardo.webp);
+    background-position: center left 15px;
+}
+
+#rafael{
+    background-image: url(img/rafael.webp);
+    background-position: center left 15px;
+}
+
+#nickelodeon{
+    background-image: url(img/nickelodeon.webp);
     background-position: center left 15px;
 }
