@@ -1,0 +1,21 @@
+body{
+    background-image: url(../img/barra-lateral.png);
+    background-repeat: repeat-y;
+    margin: 0;
+}
+
+header{
+    background-image: url(../img/bach-header-1.png);
+    color: white;
+}
+
+#logo, h1{
+    padding-left: 20px;
+    width: 50px;
+    display: inline-block;
+}
+
+nav{
+    font-weight: 700;   
+    display: inline-block;
+}
