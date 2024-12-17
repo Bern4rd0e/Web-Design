@@ -1,21 +1,53 @@
-body{
+body {
     background-image: url(../img/barra-lateral.png);
     background-repeat: repeat-y;
     margin: 0;
 }
 
-header{
+header {
     background-image: url(../img/bach-header-1.png);
     color: white;
 }
 
-#logo, h1{
-    padding-left: 20px;
+#logo,
+h1 {
+    padding-left: 10px;
     width: 50px;
     display: inline-block;
+    padding: 10px;
 }
 
-nav{
-    font-weight: 700;   
-    display: inline-block;
+nav {
+    font-weight: 700;
+    display: flex;
+    /* Usando flexbox */
+    align-items: center;
+    /* Alinha os itens verticalmente */
+
 }
+
+.seta {
+    width: 25px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    padding-right: 0;
+    font-size: 17px;
+    list-style-type: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  /* Efeito de hover nos itens da lista */
+ul li:hover {
+    background-color: rgb(127, 127, 212);
+    color: white;
+  }
