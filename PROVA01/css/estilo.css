@@ -1,30 +1,31 @@
-body {
+body, html {
     background-image: url(../img/barra-lateral.png);
     background-repeat: repeat-y;
+    background-size: 220px;
     margin: 0;
+    padding: 0;
 }
 
 header {
     background-image: url(../img/bach-header-1.png);
+    background-size: cover;
     color: white;
 }
 
 #logo,
 h1 {
-    
     padding-left: 10px;
     width: 50px;
     display: inline-block;
     padding: 10px;
 }
 
-nav {
-    font-weight: 700;
+h1{
+    font-family: "Charm", serif;
+}
 
-    /* Usando flexbox */
-    align-items: center;
-    /* Alinha os itens verticalmente */
-
+img:hover{
+    transform: scale(1.05);
 }
 
 .seta {
@@ -33,59 +34,98 @@ nav {
     margin-right: 10px;
 }
 
-ul{
+ul {
     padding: 0;
     margin: 0;
-  }
+}
 
- .li li {
-    padding-right: 0;
+.li{
+    width: 100%;
+    padding-top: 0;
+}
+
+.li li {
     font-size: 17px;
     list-style-type: none;
-    padding-bottom: 10px;
-    padding-top: 10px;
-  }
+    padding-right: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 11px;
+    width: 100%; 
+}
 
-  /* Efeito de hover nos itens da lista */
-nav ul li:hover {
+
+nav ul li:hover, 
+a:hover {
+    font-family: 'Charm',  sans-serif;
     background-color: #5681b3;
-    color: white;
+    color: rgb(255, 255, 255);
+    transition: 0.3s ease;
+}
+
+li{
+    font-family: Verdana, sans-serif;
 }
 
 .container {
-    display: flex; /* Flexbox para organizar os itens lado a lado */
+    display: flex;
     margin-top: 20px;
 }
 
-main{
-    flex: 1; /* Isso faz com que o main ocupe o restante do espaço */
+a{
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
     padding-left: 50px;
 }
 
-h2{
+h2 {
     font-family: Verdana, sans-serif;
     color: #1a62b1;
     margin-bottom: 5px;
     margin-top: 0;
 }
 
-hr{
+hr {
     border: solid 1px #bed4e7;
 }
 
-main ul{
+main ul {
     color: #5681b3;
     padding-left: 30px;
 }
 
-main li{
+main li {
     padding-top: 5px;
 }
 
-#overview{
-    width: 400px;
+.overview {
+    width: 500px;
     margin-left: 25%;
     margin-top: 30px;
     border: solid 1px black;
+}
+
+table, tr, td, th{
+    color: #1a62b1;
+    padding: 20px;
+    margin: 20px;
+    border: solid 2px #1a62b1;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+#table{
     
 }
+
+th{
+    background-color: #7ca7d8;
+}
+
+td{
+    padding-right: 200px;
+}
+
