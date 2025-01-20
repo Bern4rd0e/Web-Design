@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+
+#h{
+    width: 100%;
+    background-color: blanchedalmond;
+    padding: 50px;
+}
+
+#n{
+    float: left;
+    width: 20%;
+    background-color: rgb(157, 180, 243);
+}
+#m{
+    float: right;
+    width: 69%;
+    background-color: aquamarine;
+    padding: 50px;
+}
+#f{
+    width: 100%;
+    background-color: pink;
+    padding: 50px;
+    clear: both;
+}
